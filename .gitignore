@@ -1,4 +1,19 @@
-*.json
+# Сессии
+sessions/*.session
+sessions/*.session-journal
+
+# Данные
+snos_data.json
 *.pyc
-__pycache__
+__pycache__/
+
+# Виртуальное окружение
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Логи
 *.log
